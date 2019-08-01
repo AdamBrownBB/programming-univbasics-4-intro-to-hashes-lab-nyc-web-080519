@@ -33,7 +33,7 @@ def read_from_hash(hash, key)
 
 
 def update_counting_hash(hash, key)
-   hash.fetch(key)
+   hash.fetch(key = 1)
 end
 
 
