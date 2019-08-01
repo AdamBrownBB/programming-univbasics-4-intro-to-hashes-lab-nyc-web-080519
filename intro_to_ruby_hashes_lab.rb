@@ -33,7 +33,11 @@ def read_from_hash(hash, key)
 
 
 def update_counting_hash(hash, key)
-    hash = hash[key] += 1
+   if shipping_manifest["top hat"]
+  shipping_manifest["top hat"] += 1
+else
+  puts "Key not found!"
+end
    
 end
 
